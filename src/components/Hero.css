@@ -1,0 +1,16 @@
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
