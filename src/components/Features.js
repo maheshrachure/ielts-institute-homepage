@@ -26,14 +26,14 @@ function Features() {
   ];
 
   return (
-    <section id="features" className="features-section py-5">
+    <section id="features" className="features-section">
       <div className="container">
-        <h2 className="text-center mb-5">Our Features</h2>
+        <h2 className="section-title text-center mb-5">Our Features</h2>
         <div className="row">
           {featuresData.map((feature, index) => (
             <div key={index} className="col-md-6 col-lg-3 mb-4">
-              <div className="feature-card p-4 text-center h-100">
-                <div className="feature-icon mb-3">{feature.icon}</div>
+              <div className="feature-card h-100">
+                <div className="feature-icon">{feature.icon}</div>
                 <h5>{feature.title}</h5>
                 <p>{feature.description}</p>
               </div>

@@ -1,28 +1,28 @@
 import React from "react";
 import "./Testimonials.css";
-import sarahImg from "../assets/niharika.jpg";
-import davidImg from "../assets/mahesh.jpg";
-import emilyImg from "../assets/deepthi.jpg";
+import niharika from "../assets/niharika.jpg";
+import mahesh from "../assets/mahesh.jpg";
+import deepthi from "../assets/deepthi.jpg";
 
 function Testimonials() {
   const testimonialsData = [
     {
-      name: "Sarah Johnson",
+      name: "Niharika MN",
       feedback:
         "The mock tests helped me identify my weak areas. Highly recommended!",
-      image: sarahImg,
+      image: niharika,
     },
     {
-      name: "David Lee",
+      name: "Mahesh Rachure",
       feedback:
         "AI band score feature is amazing! I improved my score by 1 band.",
-      image: davidImg,
+      image: mahesh,
     },
     {
-      name: "Emily Clark",
+      name: "Deepthi Sharma",
       feedback:
         "Personalized feedback and speaking practice made a huge difference.",
-      image: emilyImg,
+      image: deepthi,
     },
   ];
 
